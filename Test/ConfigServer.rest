@@ -10,6 +10,9 @@ GET http://localhost:8888/app/production
 ###
 GET http://localhost:8888/cartoes/development
 
+###
+GET http://localhost:8888/cartoes/production
+
 
 ###
 GET http://localhost:8888/saude/development
@@ -31,8 +34,12 @@ GET http://localhost:8001/actuator/
 content-Type: application/json
 
 ###
-POST http://localhost:8001/refresh
+POST http://localhost:8002/refresh
 content-Type: application/json
+
+
+
+
 
 
 
