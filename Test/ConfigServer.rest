@@ -1,0 +1,51 @@
+
+# Config Server
+###
+GET http://localhost:8888/app/development
+
+###
+GET http://localhost:8888/app/production
+
+
+###
+GET http://localhost:8888/cartoes/development
+
+
+###
+GET http://localhost:8888/saude/development
+
+
+
+# CARTOES
+###
+GET http://localhost:8001/message
+
+
+# SAUDE
+###
+GET http://localhost:8002/message
+
+
+###
+GET http://localhost:8001/actuator/
+content-Type: application/json
+
+###
+POST http://localhost:8001/refresh
+content-Type: application/json
+
+
+
+
+###
+GET http://localhost:8888/configuration-service/development
+
+###
+GET http://localhost:8888/config-client-demo/development
+
+###
+GET http://localhost:8888/config-client-demo/staging
+
+
+###
+GET http://localhost:8888/config-client-demo/production
