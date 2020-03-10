@@ -30,11 +30,11 @@ GET http://localhost:8002/echo
 
 
 ###
-GET http://localhost:8001/actuator/
+GET http://localhost:8002/actuator/
 content-Type: application/json
 
 ###
-POST http://localhost:8002/refresh
+POST http://localhost:8002/actuator/refresh
 content-Type: application/json
 
 
