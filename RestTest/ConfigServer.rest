@@ -38,6 +38,11 @@ POST http://localhost:8002/actuator/refresh
 content-Type: application/json
 
 
+# Bus
+###
+GET http://localhost:8888/bus/refresh
+content-Type: application/json
+
 
 
 
